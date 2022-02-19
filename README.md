@@ -28,3 +28,20 @@ pip install -r requirements.txt
 ```
 
 Note: Tensorflow 2.4.0 is compatible with only Python<=3.7.6 and you might need to create a virtual environment for your python version if you are on upper version.
+
+## Usage
+
+    usage: main.py [-h] -i IMAGE [-o OUTPUT] [-p PREDICT] [-d DETECT]
+
+    optional arguments:
+    -h, --help            show this help message and exit
+    -i IMAGE, --image IMAGE
+                            path to Image file
+    -o OUTPUT, --output OUTPUT
+                            path to Output file
+    -p PREDICT, --predict PREDICT
+                            use this argument when want to make prediction about
+                            the image
+    -d DETECT, --detect DETECT
+                            use this argument when want to detect objects in the
+                            image
