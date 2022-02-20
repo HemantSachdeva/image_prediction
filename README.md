@@ -80,3 +80,21 @@ Detect objects in an image:
     donut  :  33.92322063446045  :  [33, 371, 115, 451]
     Object's image saved in /home/hemant/Projects/ImageRecognition/assets/images/family-detected.jpg-objects/donut-6.jpg
     --------------------------------
+
+## More Information
+
+Github do not allow uploading files with a size greater than 100MB. So all the examples and used training models are smaller in size but there are more models that can be used for prediction and detection with more accuracy.
+
+Prediction models:
+
+1. [ResNet50](https://github.com/OlafenwaMoses/ImageAI/releases/download/essentials-v5/resnet50_imagenet_tf.2.0.h5) by Microsoft Research (Size = 98 mb, fast prediction time and high accuracy)
+
+1. [InceptionV3](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/inception_v3_weights_tf_dim_ordering_tf_kernels.h5) by Google Brain team (Size = 91.6 mb, slow prediction time and higher accuracy)
+
+1. [DenseNet121](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/DenseNet-BC-121-32.h5) by Facebook AI Research (Size = 31.6 mb, slower prediction time and highest accuracy)
+
+Object detection models:
+
+1. [RetinaNet](https://github.com/OlafenwaMoses/ImageAI/releases/download/essentials-v5/resnet50_coco_best_v2.1.0.h5) (Size = 145 mb, high performance and accuracy, with longer detection time)
+
+1. [YOLOv3](https://github.com/OlafenwaMoses/ImageAI/releases/download/1.0/yolo.h5) (Size = 237 mb, moderate performance and accuracy, with a moderate detection time)
